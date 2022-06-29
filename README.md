@@ -63,11 +63,11 @@ Click `Configure`.
 
 #### Install pgAdmin4
 
-    sudo yum install pgadmin4-web`
+    sudo yum install pgadmin4-web
 
 #### Run Setup Script
 
-    sudo /usr/pgadmin4/bin/setup-web.sh`
+    sudo /usr/pgadmin4/bin/setup-web.sh
 
 ### Configure OAUTH
 
@@ -81,7 +81,7 @@ Edit `config_local.py` and define OAUTH2 as the authentication source:
 
 - Locate the line `AUTHENTICATION_SOURCES` and modify as per below:
 
-    AUTHENTICATION_SOURCES = ['oauth2']
+        AUTHENTICATION_SOURCES = ['oauth2']
 
 Locate the configuration block labeled `OAUTH2_CONFIG` and make changes per the example below:
 
@@ -89,7 +89,7 @@ At minimum, ensure you replace the placeholder values for `<registered_app_id>`,
 
 These values can be obtained from the Azure Active Directory portal where the Registered App was created.
 
-Sample OAUTH2 config:
+#### Sample OAUTH2 config:
 
     OAUTH2_CONFIG = [
         {
