@@ -63,7 +63,7 @@ Click `Configure`.
 
 #### Install pgAdmin4
 
-    sudo yum install pgadmin4-web
+    sudo dnf install pgadmin4-web
 
 #### Run Setup Script
 
