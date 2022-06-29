@@ -39,7 +39,7 @@ Select `Web`.
 
 Add the URI of the pgadmin server
 
-*- Note: The URI should match the pattern `https://<host>:<port>/pgadmin4/oauth2/authorize*
+*- Note: The URI should match the pattern `https://<host>:<port>/pgadmin4/oauth2/authorize`*
 
 Click `Configure`.
 
